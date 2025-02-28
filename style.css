@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+/*värit rgba(36,52,77,255), rgba(62,86,124,255), rgba(141,160,177,255), rgba(168,187,202,255), rgba(192,192,192,255), rgba(181,130,39,255)*/
+.navbar {
+  display: flex; /* Flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between logo and links */
+  background-color: rgba(147,196,228,255); /* Background color */
+  padding: 10px 40px; /* Padding around the navbar */
+  box-shadow: 0 2px 5px rgba(147,196,228,255); /* Slight shadow for style */
+}
+
+.logo img {
+  height: 60px; /* Adjust logo size */
+  transition: height 0.3s ease; /* Smooth scaling for smaller devices */
+}
+
+.nav-links {
+  display: flex; /* Flexbox for navigation links */
+  gap: 30px; /* Space between navigation items */
+  list-style: none; /* Remove bullet points */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none; /* Remove underline */
+  color: white; /* Dark text color */
+  font-size: 16px;
+  font-weight: 500;
+  transition: font-size 0.3s ease; /* Smooth scaling */
+}
+
+.nav-links a:hover {
+  color: #007bff; /* Highlight color on hover */
+}
+
+/* Center navigation links */
+.navbar .nav-links {
+  position: absolute; /* Allows precise positioning */
+  left: 50%; /* Start the nav links from the center horizontally */
+  transform: translateX(-50%); /* Adjust for true centering */
+  display: flex; /* Use Flexbox for spacing */
+  gap: 80px; /* Increase space between navigation items */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 20px; /* Reduce padding for smaller screens */
+  }
+
+  .logo img {
+    height: 50px; /* Scale down logo */
+  }
+
+  .nav-links a {
+    font-size: 14px; /* Reduce font size */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column; /* Stack logo and links */
+    align-items: center; /* Center everything */
+    padding: 10px; /* Minimal padding */
+  }
+
+  .logo {
+    margin-bottom: 10px; /* Add spacing between logo and links */
+  }
+
+  .nav-links {
+    position: static; /* Reset positioning */
+    transform: none; /* Remove centering transform */
+    gap: 15px; /* Adjust gap for smaller screens */
+  }
+
+  .nav-links a {
+    font-size: 12px; /* Further reduce font size */
+  }
+
+
+
+}
+.hotel {
+  
+  width: 100%;
+  height: auto;
+}
+
+
