@@ -57,9 +57,9 @@ body {
 }
 .header{
   position: absolute;
-  top: 10%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: -10%;
+  left: 30%;
+  
   font-size: 50px;
   color:rgba(147,196,228,255);
   -webkit-text-stroke: 1px black;
