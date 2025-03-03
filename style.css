@@ -1,15 +1,17 @@
+/* font family in body */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Lato";
 }
-/*värit rgba(36,52,77,255), rgba(62,86,124,255), rgba(141,160,177,255), rgba(168,187,202,255), rgba(192,192,192,255), rgba(181,130,39,255)*/
+
 .navbar {
   display: flex; /* Flexbox for alignment */
   align-items: center; /* Center items vertically */
   justify-content: space-between; /* Space between logo and links */
   background-color: rgba(147,196,228,255); /* Background color */
   padding: 10px 40px; /* Padding around the navbar */
-  box-shadow: 0 2px 5px rgba(147,196,228,255); /* Slight shadow for style */
+  box-shadow: 0 8px 10px rgba(147,196,228,255); /* Slight shadow for style */
+
 }
 
 .logo img {
@@ -28,7 +30,7 @@ body {
 .nav-links a {
   text-decoration: none; /* Remove underline */
   color: white; /* Dark text color */
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   transition: font-size 0.3s ease; /* Smooth scaling */
 }
@@ -37,7 +39,7 @@ body {
   color: #007bff; /* Highlight color on hover */
 }
 
-/* Center navigation links */
+
 .navbar .nav-links {
   position: absolute; /* Allows precise positioning */
   left: 50%; /* Start the nav links from the center horizontally */
@@ -46,51 +48,152 @@ body {
   gap: 80px; /* Increase space between navigation items */
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .navbar {
-    padding: 10px 20px; /* Reduce padding for smaller screens */
-  }
-
-  .logo img {
-    height: 50px; /* Scale down logo */
-  }
-
-  .nav-links a {
-    font-size: 14px; /* Reduce font size */
-  }
-}
-
-@media (max-width: 480px) {
-  .navbar {
-    flex-direction: column; /* Stack logo and links */
-    align-items: center; /* Center everything */
-    padding: 10px; /* Minimal padding */
-  }
-
-  .logo {
-    margin-bottom: 10px; /* Add spacing between logo and links */
-  }
-
-  .nav-links {
-    position: static; /* Reset positioning */
-    transform: none; /* Remove centering transform */
-    gap: 15px; /* Adjust gap for smaller screens */
-  }
-
-  .nav-links a {
-    font-size: 12px; /* Further reduce font size */
-  }
-
-
-
-}
+/* Introduction hotel picture and header*/
 .hotel {
- width: 100%;
- height: 300px;
+  position: relative;
+  margin-top: 15px ;
+  width: 100%;
+  height: 600px;
+}
+.header{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color:rgba(147,196,228,255);
+  -webkit-text-stroke: 1px black;
+  
+
 }
 
 .hotel img {
   width: 100%;
   height: 100%;
+  box-shadow: 0 -5px 12px rgba(146,145,238,255);
+  
+
 }
+
+/* Booking-box */
+.booking-box{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgba(111, 110, 110, 0.228);
+padding: 20px;
+
+}
+
+.box{
+  list-style: none;
+  background-color: rgba(147, 196, 228, 0.676);
+  justify-content: center;
+  border-radius: 20px;
+  width: 50%;
+}
+.box li{
+  
+  float:left;
+  text-align: center;
+  padding-left: 8%;
+  
+}
+.calendar{
+border-radius: 20px;
+}
+
+
+.button{
+  margin: 20px; 
+  height: 40px;
+  margin-left: 20;
+  background: rgba(128, 128, 128, 0.799);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+/* header for section */
+h2{
+ display: flex;
+ justify-content: center;
+}
+
+/* Info section */
+.info {
+  
+  display: inline-block;
+  background-color: rgba(111, 110, 110, 0.228);
+  margin-top: 100px;
+
+}
+.info_table{
+  margin-left: 80px;
+  font-size: 20px;
+}
+.info_table h4{
+  font-size: 26px;
+}
+.info img{
+  width: 40%;
+  
+  border-radius: 20px;
+  margin-left: 200px;
+}
+.info-header{
+ font-size: 30px;
+ margin-left: 80px;
+  
+  
+}
+
+
+
+
+
+
+/* Footer */
+.footer {
+  background-color: #333; /* Culoare de fundal pentru footer */
+  color: white; /* Culoare textului */
+  width: 100%;
+  padding: 20px, 0px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.footer-container{
+  flex: 1;
+  padding: 20px;
+}
+.links{
+  color: white;
+  list-style: none;
+}
+.h3-links{
+  margin-left: 32px;
+}
+a:visited{
+  color: aliceblue;
+}
+
+.botteom-bar{
+  display: flex;
+  justify-content: center;
+}
+.icons{
+  font-size: 25px;
+}
+.h3-Follow{
+  margin-left: 14px;
+}
+
+
+
+
+
+
