@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: "Lato";
 }
-
+/* Navigation Bar*/
 .navbar {
   display: flex; /* Flexbox for alignment */
   align-items: center; /* Center items vertically */
@@ -106,7 +106,7 @@ margin-bottom: 20px;
 
 
 .button{
-  margin-top: 30px;
+  margin-top: 30px; 
   height: 40px;
   float: right;
   background: rgba(128, 128, 128, 0.799);
@@ -151,8 +151,6 @@ h2{
   
 }
 
-/* Restaurant */
-
 /* Restaurant imagine */
 
 .ravintola{
@@ -168,12 +166,63 @@ h2{
 }
 
 
+/* Restaurant intro */
+.restaurantHeader{
+  color: rgb(239, 175, 91);
+  text-align: center;
+  font-size: 60px;
+}
+.restaurantIntro{
+
+  text-align: center;
+  font-size: 23px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.intro{
+  text-align: center;
+  font-size: 25px;
+}
+.introButton button{
+  border-radius: 20px;
+  width: 130px;
+  height: 40px;
+  background-color: rgba(11, 106, 221, 0.845);
+  color: white;
+  border: none;
+  margin-top: 10px;
+  
+}
 
 
 
 
 
 
+
+
+
+/* Restaurant Info */
+
+.restaurantInfo{
+  margin-top: 100px;
+}
+.table{
+  background-color: antiquewhite;
+  padding-top: 70px;
+  
+}
+.tableTD{
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+
+.table img{
+  width: 45%;
+  border-radius: 20px;
+
+}
 
 
 
