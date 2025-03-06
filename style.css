@@ -89,28 +89,32 @@ padding: 20px;
   background-color: rgba(147, 196, 228, 0.676);
   justify-content: center;
   border-radius: 20px;
-  width: 50%;
+  width: 40%;
 }
 .box li{
   
   float:left;
   text-align: center;
-  padding-left: 8%;
+  padding-left: 11%;
+  font-size: 20px;
   
 }
 .calendar{
 border-radius: 20px;
+margin-bottom: 20px;
 }
 
 
 .button{
-  margin: 20px; 
+  margin-top: 30px;
   height: 40px;
-  margin-left: 20;
+  float: right;
   background: rgba(128, 128, 128, 0.799);
   color: white;
-  border-radius: 10px;
+  border-radius: 20px;
   border: none;
+  
+  
 }
 
 /* header for section */
