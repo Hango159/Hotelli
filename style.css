@@ -1,197 +1,229 @@
 /* font family in body */
 body {
-  margin: 0;
-  font-family: "Lato";
+    margin: 0;
+    font-family: "Lato";
 }
+
 /* Navigation Bar*/
 .navbar {
-  display: flex; /* Flexbox for alignment */
-  align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Space between logo and links */
-  background-color: rgba(147,196,228,255); /* Background color */
-  padding: 10px 40px; /* Padding around the navbar */
-  box-shadow: 0 8px 10px rgba(147,196,228,255); /* Slight shadow for style */
+    display: flex;
+    /* Flexbox for alignment */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: space-between;
+    /* Space between logo and links */
+    background-color: rgba(147, 196, 228, 255);
+    /* Background color */
+    padding: 10px 40px;
+    /* Padding around the navbar */
+    box-shadow: 0 8px 10px rgba(147, 196, 228, 255);
+    /* Slight shadow for style */
 
 }
 
 .logo img {
-  height: 60px; /* Adjust logo size */
-  transition: height 0.3s ease; /* Smooth scaling for smaller devices */
+    height: 60px;
+    /* Adjust logo size */
+    transition: height 0.3s ease;
+    /* Smooth scaling for smaller devices */
 }
 
 .nav-links {
-  display: flex; /* Flexbox for navigation links */
-  gap: 30px; /* Space between navigation items */
-  list-style: none; /* Remove bullet points */
-  margin: 0;
-  padding: 0;
+    display: flex;
+    /* Flexbox for navigation links */
+    gap: 30px;
+    /* Space between navigation items */
+    list-style: none;
+    /* Remove bullet points */
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links a {
-  text-decoration: none; /* Remove underline */
-  color: white; /* Dark text color */
-  font-size: 20px;
-  font-weight: 500;
-  transition: font-size 0.3s ease; /* Smooth scaling */
+    text-decoration: none;
+    /* Remove underline */
+    color: white;
+    /* Dark text color */
+    font-size: 20px;
+    font-weight: 500;
+    transition: font-size 0.3s ease;
+    /* Smooth scaling */
 }
 
 .nav-links a:hover {
-  color: #007bff; /* Highlight color on hover */
+    color: #007bff;
+    /* Highlight color on hover */
 }
 
 
 .navbar .nav-links {
-  position: absolute; /* Allows precise positioning */
-  left: 50%; /* Start the nav links from the center horizontally */
-  transform: translateX(-50%); /* Adjust for true centering */
-  display: flex; /* Use Flexbox for spacing */
-  gap: 80px; /* Increase space between navigation items */
+    position: absolute;
+    /* Allows precise positioning */
+    left: 50%;
+    /* Start the nav links from the center horizontally */
+    transform: translateX(-50%);
+    /* Adjust for true centering */
+    display: flex;
+    /* Use Flexbox for spacing */
+    gap: 80px;
+    /* Increase space between navigation items */
 }
 
 /* Introduction hotel picture and header*/
 .hotel {
-  position: relative;
-  margin-top: 15px ;
-  width: 100%;
-  height: 600px;
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    height: 600px;
 }
-.header{
-  position: absolute;
-  top: -10%;
-  left: 30%;
-  
-  font-size: 50px;
-  color:rgba(147,196,228,255);
-  -webkit-text-stroke: 1px black;
-  
+
+.header {
+    position: absolute;
+    top: -10%;
+    left: 30%;
+
+    font-size: 50px;
+    color: rgba(147, 196, 228, 255);
+    -webkit-text-stroke: 1px black;
+
 
 }
+
 .hotel img {
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 -5px 12px rgba(146,145,238,255);
-  
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 -5px 12px rgba(146, 145, 238, 255);
+
 
 }
 
 /* Booking-box */
-.booking-box{
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: rgba(111, 110, 110, 0.228);
-padding: 20px;
+.booking-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(111, 110, 110, 0.228);
+    padding: 20px;
 
 }
 
-.box{
-  list-style: none;
-  background-color: rgba(147, 196, 228, 0.676);
-  justify-content: center;
-  border-radius: 20px;
-  width: 40%;
+.box {
+    list-style: none;
+    background-color: rgba(147, 196, 228, 0.676);
+    justify-content: center;
+    border-radius: 20px;
+    width: 40%;
 }
-.box li{
-  
-  float:left;
-  text-align: center;
-  padding-left: 11%;
-  font-size: 20px;
-  
+
+.box li {
+
+    float: left;
+    text-align: center;
+    padding-left: 11%;
+    font-size: 20px;
+
 }
-.calendar{
-border-radius: 20px;
-margin-bottom: 20px;
+
+.calendar {
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 
-.button{
-  margin-top: 30px; 
-  height: 40px;
-  float: right;
-  background: rgba(128, 128, 128, 0.799);
-  color: white;
-  border-radius: 20px;
-  border: none;
-  
-  
+.button {
+    margin-top: 30px;
+    height: 40px;
+    float: right;
+    background: rgba(128, 128, 128, 0.799);
+    color: white;
+    border-radius: 20px;
+    border: none;
+
+
 }
 
 /* header for section */
-h2{
- display: flex;
- justify-content: center;
+h2 {
+    display: flex;
+    justify-content: center;
 }
 
 /* Info section */
 .info {
-  
-  display: inline-block;
-  background-color: rgba(111, 110, 110, 0.228);
-  margin-top: 100px;
+
+    display: inline-block;
+    background-color: rgba(111, 110, 110, 0.228);
+    margin-top: 100px;
 
 }
-.info_table{
-  margin-left: 80px;
-  font-size: 20px;
+
+.info_table {
+    margin-left: 80px;
+    font-size: 20px;
 }
-.info_table h4{
-  font-size: 26px;
+
+.info_table h4 {
+    font-size: 26px;
 }
-.info img{
-  width: 40%;
-  
-  border-radius: 20px;
-  margin-left: 200px;
+
+.info img {
+    width: 40%;
+
+    border-radius: 20px;
+    margin-left: 200px;
 }
-.info-header{
- font-size: 30px;
- margin-left: 80px;
-  
-  
+
+.info-header {
+    font-size: 30px;
+    margin-left: 80px;
+
+
 }
 
 /* Restaurant imagine */
 
-.ravintola{
-  width: 100%;
-  height: 100%;
+.ravintola {
+    width: 100%;
+    height: 100%;
 }
 
 .ravintola img {
-  position: relative;
-  margin-top: 15px ;
-  width: 100%;
-  height: 600px;
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    height: 600px;
 }
 
 
 /* Restaurant intro */
-.restaurantHeader{
-  color: rgb(239, 175, 91);
-  text-align: center;
-  font-size: 60px;
+.restaurantHeader {
+    color: rgb(239, 175, 91);
+    text-align: center;
+    font-size: 60px;
 }
-.restaurantIntro{
 
-  text-align: center;
-  font-size: 23px;
-  padding-left: 30px;
-  padding-right: 30px;
+.restaurantIntro {
+
+    text-align: center;
+    font-size: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-.intro{
-  text-align: center;
-  font-size: 20px;
+
+.intro {
+    text-align: center;
+    font-size: 25px;
 }
-.introButton button{
-  border-radius: 20px;
-  width: 130px;
-  height: 40px;
-  background-color: rgba(11, 106, 221, 0.845);
-  color: white;
-  border: none;
-  margin-top: 10px;
-  
+
+.introButton button {
+    border-radius: 20px;
+    width: 130px;
+    height: 40px;
+    background-color: rgba(11, 106, 221, 0.845);
+    color: white;
+    border: none;
+    margin-top: 10px;
+
 }
 
 
@@ -204,42 +236,29 @@ h2{
 
 /* Restaurant Info */
 
-.restaurantInfo{
-  margin-top: 100px;
-}
-.table{
-  background-color: antiquewhite;
-  padding-top: 70px;
-  font-size: 20px;
-
-  
-}
-.tableTD{
-  padding-right: 150px;
-  padding-left: 150px;
+.restaurantInfo {
+    margin-top: 100px;
 }
 
+.table {
+    background-color: antiquewhite;
+    padding-top: 70px;
+    font-size: 20px;
 
-.table img{
-  width: 45%;
-  border-radius: 20px;
- 
-}
-
-/* Huoneet */
-.huoneet{
-  font-size: 20px;
-  border: 2px solid black;
 
 }
-.loka1{
-  width: 100%;
-  
-  
+
+.tableTD {
+    padding-right: 150px;
+    padding-left: 150px;
 }
 
 
+.table img {
+    width: 45%;
+    border-radius: 20px;
 
+}
 
 
 
@@ -247,45 +266,47 @@ h2{
 
 /* Footer */
 .footer {
-  background-color: #333; /* Culoare de fundal pentru footer */
-  color: white; /* Culoare textului */
-  width: 100%;
-  padding: 20px, 0px;
+    background-color: #333;
+    /* Culoare de fundal pentru footer */
+    color: white;
+    /* Culoare textului */
+    width: 100%;
+    padding: 20px, 0px;
 }
 
-.container{
-  display: flex;
-  justify-content: space-around;
-  padding: 20px;
-}
-.footer-container{
-  flex: 1;
-  padding: 20px;
-}
-.links{
-  color: white;
-  list-style: none;
-}
-.h3-links{
-  margin-left: 32px;
-}
-a:visited{
-  color: aliceblue;
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
 
-.botteom-bar{
-  display: flex;
-  justify-content: center;
-}
-.icons{
-  font-size: 25px;
-}
-.h3-Follow{
-  margin-left: 14px;
+.footer-container {
+    flex: 1;
+    padding: 20px;
 }
 
+.links {
+    color: white;
+    list-style: none;
+}
 
+.h3-links {
+    margin-left: 32px;
+}
 
+a:visited {
+    color: aliceblue;
+}
 
+.botteom-bar {
+    display: flex;
+    justify-content: center;
+}
 
+.icons {
+    font-size: 25px;
+}
 
+.h3-Follow {
+    margin-left: 14px;
+}
