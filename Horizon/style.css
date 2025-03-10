@@ -141,7 +141,6 @@ body {
     height: 40px;
     float: right;
     background: rgba(128, 128, 128, 0.799);
-    color: white;
     border-radius: 20px;
     border: none;
 
@@ -209,7 +208,6 @@ body {
     width: 130px;
     height: 40px;
     background-color: rgba(11, 106, 221, 0.845);
-    color: white;
     border: none;
     margin-top: 10px;
 
