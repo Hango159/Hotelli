@@ -44,8 +44,6 @@ body {
     /* Space between navigation items */
     list-style: none;
     /* Remove bullet points */
-    margin: 0;
-    padding: 0;
 }
 
 .nav-links a {
